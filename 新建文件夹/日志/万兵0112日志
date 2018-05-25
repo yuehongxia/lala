@@ -1,0 +1,22 @@
+﻿python中的正则表达式（re模块）
+
+1.compile()  re.compile(pattern,flags=0)
+编译正则表达式模式，返回一个对象的模式
+
+2.match（）  re.match(pattern, string, flags=0)
+决定RE是否在字符串刚开始的匹配位置
+
+3.search()   re.search(pattern, string, flags=0)
+re.search函数会在字符串内查找模式匹配，只要找到第一个匹配然后返回，如果字符串没有匹配，则返回none
+
+4.findall()  re.findall(pattern, string, flags=0)
+re.findall遍历匹配，可以获取字符串所有匹配的字符串，返回一个列表
+5.finditer() re.finditer(pattern, string, flags=0)
+搜索string，返回一个顺序访问每一个匹配结果（match对象）的迭代器
+6.split()  re.split(pattern, string[, maxsplit])
+按照能够匹配的子串string分割返回列表
+
+7.sub()  re.sub(pattern, repl, string, count)
+使用re替换string中每一个匹配的子串后返回替换后的字符串
+8.subn()  subn(pattern, repl, string, count=0, flags=0)
+返回替换次数

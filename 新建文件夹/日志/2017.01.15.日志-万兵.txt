@@ -1,0 +1,28 @@
+爬虫：一段自动抓取互联网信息的程序 
+调度器           URL管理器      下载器     解析器           应用
+
+
+URL管理器
+Python内存
+待爬取URL集合：set()
+已爬取URL集合：set()
+
+关系数据库
+MySQL
+urls(url,is_crawled)[url,是否爬取]
+
+缓存数据库
+redis
+待爬取URL集合：set()
+已爬取URL集合：set()
+
+网页下载器：将互联网上URL对应的网页下载到本地的工具（urllib2）（）
+
+beautiful soup
+python第三方库，用于从HTML或xml中提取数据
+
+                     --- URL格式
+                    |
+确定目标--分析目标-- --- 数据格式  --- 编写代码  ---执行爬虫
+                    |
+                     --- 网页编码

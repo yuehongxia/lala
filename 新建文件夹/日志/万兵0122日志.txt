@@ -1,0 +1,7 @@
+安装python并配置好环境变量
+在cmd环境中安装pip
+安装django
+创建项目:
+django-admin startproject demo #创建一个名为demo的项目
+验证：在windows资源管理器中进入project目录，会发现project目录下已经自动生成了demo的文件夹
+执行python manage.py runserver，然后在浏览器中输入127.0.0.1:8000可检测项目是否被启动。
